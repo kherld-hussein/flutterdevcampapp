@@ -49,7 +49,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 1;
   final nameController = TextEditingController();
-  String name = "";
+  String name = "Kherld";
   var currentDay = DateTime.now().day;
   void _printLatestValue() {
     setState(() {
@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: TextField(
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: 'Enter your name',
+                hintText: 'Kherld',
               ),
               controller: nameController,
             ),
